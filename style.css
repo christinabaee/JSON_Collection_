@@ -1,0 +1,39 @@
+body{
+  background-color: #fde0f0;
+  text-align: center;
+  font-family: Courier New;
+  color:#940956;
+}
+
+/* PROF EDIT: Some starter CSS for your content */
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 12px;
+  grid-column-gap: 30px;
+  grid-row-gap: 12px;
+}
+
+#contentGrid > div {
+  width: 100%;
+}
+
+#contentGrid img {
+  width: 100%;
+}
+
+.contentItem{
+  border-style: solid;
+  border-color: #940956;
+  border-radius: 25px;
+  border-width: 3px;
+}
+
+.footerImage{
+  border-radius: 25px;
+  object-fit: cover;
+  width:90%;
+  height: 50%;
+  object-position: center 100%;
+}
